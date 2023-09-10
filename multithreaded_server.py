@@ -43,7 +43,7 @@ def handle_client(connection_socket):
 server_socket = socket(AF_INET, SOCK_STREAM)
 
 # Configure server settings
-server_host = '0.0.0.0'  # Listen on all available network interfaces
+server_host = ''
 server_port = 80
 server_socket.bind((server_host, server_port))
 

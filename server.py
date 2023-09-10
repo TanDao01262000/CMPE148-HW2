@@ -4,7 +4,7 @@ import sys
 server_socket = socket(AF_INET, SOCK_STREAM)
 
 # Prepare a server socket
-server_host = '0.0.0.0' 
+server_host = '' 
 server_port = 80
 
 server_socket.bind((server_host, server_port))
