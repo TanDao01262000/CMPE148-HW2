@@ -38,7 +38,7 @@ while True:
             connection_socket.close()
             
         except:
-            error_message = "HTTP/1.1 404 Not Found\r\nContent-Type: text/html\r\n\r\nFile Not Found"
+            error_message = "HTTP/1.1 404 Not Found\r\nContent-Type: text/html\r\n\r\n404 Not Found"
             connection_socket.send(error_message.encode())
             connection_socket.close()
 
